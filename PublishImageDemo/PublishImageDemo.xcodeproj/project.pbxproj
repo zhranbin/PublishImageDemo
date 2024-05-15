@@ -16,6 +16,11 @@
 		86054E1E2BF47A5C0046661F /* PublishImageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E1D2BF47A5C0046661F /* PublishImageDemoTests.swift */; };
 		86054E282BF47A5C0046661F /* PublishImageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E272BF47A5C0046661F /* PublishImageDemoUITests.swift */; };
 		86054E2A2BF47A5C0046661F /* PublishImageDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E292BF47A5C0046661F /* PublishImageDemoUITestsLaunchTests.swift */; };
+		86054E3C2BF47B0E0046661F /* ABPublishImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E362BF47B0E0046661F /* ABPublishImageCell.swift */; };
+		86054E3D2BF47B0E0046661F /* ABPublishImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E372BF47B0E0046661F /* ABPublishImageView.swift */; };
+		86054E3E2BF47B0E0046661F /* APPublishUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E382BF47B0E0046661F /* APPublishUtils.swift */; };
+		86054E3F2BF47B0E0046661F /* UIColor+ABPublishImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E392BF47B0E0046661F /* UIColor+ABPublishImage.swift */; };
+		86054E402BF47B0E0046661F /* UIView+ABPublishImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86054E3A2BF47B0E0046661F /* UIView+ABPublishImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		86054E232BF47A5C0046661F /* PublishImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublishImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86054E272BF47A5C0046661F /* PublishImageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishImageDemoUITests.swift; sourceTree = "<group>"; };
 		86054E292BF47A5C0046661F /* PublishImageDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishImageDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86054E362BF47B0E0046661F /* ABPublishImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABPublishImageCell.swift; sourceTree = "<group>"; };
+		86054E372BF47B0E0046661F /* ABPublishImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABPublishImageView.swift; sourceTree = "<group>"; };
+		86054E382BF47B0E0046661F /* APPublishUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APPublishUtils.swift; sourceTree = "<group>"; };
+		86054E392BF47B0E0046661F /* UIColor+ABPublishImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ABPublishImage.swift"; sourceTree = "<group>"; };
+		86054E3A2BF47B0E0046661F /* UIView+ABPublishImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ABPublishImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		86054E052BF47A5A0046661F /* PublishImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				86054E3B2BF47B0E0046661F /* ABPublishImageView */,
 				86054E062BF47A5A0046661F /* AppDelegate.swift */,
 				86054E082BF47A5A0046661F /* SceneDelegate.swift */,
 				86054E0A2BF47A5A0046661F /* ViewController.swift */,
@@ -125,6 +136,18 @@
 				86054E292BF47A5C0046661F /* PublishImageDemoUITestsLaunchTests.swift */,
 			);
 			path = PublishImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		86054E3B2BF47B0E0046661F /* ABPublishImageView */ = {
+			isa = PBXGroup;
+			children = (
+				86054E372BF47B0E0046661F /* ABPublishImageView.swift */,
+				86054E362BF47B0E0046661F /* ABPublishImageCell.swift */,
+				86054E382BF47B0E0046661F /* APPublishUtils.swift */,
+				86054E392BF47B0E0046661F /* UIColor+ABPublishImage.swift */,
+				86054E3A2BF47B0E0046661F /* UIView+ABPublishImage.swift */,
+			);
+			path = ABPublishImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86054E3C2BF47B0E0046661F /* ABPublishImageCell.swift in Sources */,
 				86054E0B2BF47A5A0046661F /* ViewController.swift in Sources */,
+				86054E3D2BF47B0E0046661F /* ABPublishImageView.swift in Sources */,
 				86054E072BF47A5A0046661F /* AppDelegate.swift in Sources */,
+				86054E3E2BF47B0E0046661F /* APPublishUtils.swift in Sources */,
+				86054E3F2BF47B0E0046661F /* UIColor+ABPublishImage.swift in Sources */,
 				86054E092BF47A5A0046661F /* SceneDelegate.swift in Sources */,
+				86054E402BF47B0E0046661F /* UIView+ABPublishImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,20 +470,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CRYV4PJ6L3;
+				DEVELOPMENT_TEAM = 2NNU3QU6U8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PublishImageDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本应用需要访问相机";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本应用需要访问相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PublishImageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublishDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,20 +501,23 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CRYV4PJ6L3;
+				DEVELOPMENT_TEAM = 2NNU3QU6U8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PublishImageDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "本应用需要访问相机";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "本应用需要访问相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PublishImageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PublishDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
